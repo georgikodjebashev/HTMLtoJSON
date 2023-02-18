@@ -8,7 +8,6 @@ namespace HTMLtoJSON
     {
         static void Main(string[] args)
         {
-
             XDocument xmlDoc = XDocument.Load("../../../data.html");
 
             var products = xmlDoc.Root.Elements();
